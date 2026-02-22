@@ -86,5 +86,15 @@ namespace Noble_Github_Calculator_Samp01
         {
 
         }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAnswer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

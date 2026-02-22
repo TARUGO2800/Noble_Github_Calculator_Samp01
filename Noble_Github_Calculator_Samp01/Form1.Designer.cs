@@ -104,6 +104,7 @@
             this.lblAnswer.Size = new System.Drawing.Size(100, 23);
             this.lblAnswer.TabIndex = 8;
             this.lblAnswer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAnswer.Click += new System.EventHandler(this.lblAnswer_Click);
             // 
             // label3
             // 
@@ -153,6 +154,7 @@
             this.Controls.Add(this.txtNum1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
